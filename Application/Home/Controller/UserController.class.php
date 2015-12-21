@@ -24,9 +24,10 @@ class UserController extends Controller {
             $username = I('username');
             $pass = I('password');
             $user = D('user');
+            $data = $user->register($username, $pass);
+            echo $data['msg']; //if $data['error'] == 1为失败
         }
-        echo rand(10,99).substr(uniqid(),7,6).'<br/>';
-        echo $str = substr(uniqid(),7,6);
+
         $this->display();
     }
 }

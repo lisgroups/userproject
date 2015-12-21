@@ -21,7 +21,7 @@ define('APP_DEBUG',True);
 define('APP_PATH','./Application/');
 
 define('EC_CHARSET','utf-8');
-define('ROOT_PATH', str_replace('tp3/index.php', '', str_replace('\\', '/', __FILE__)));
+define('ROOT_PATH', str_replace('userproject/index.php', '', str_replace('\\', '/', __FILE__)));
 
 // 引入ThinkPHP入口文件
 require './ThinkPHP/ThinkPHP.php';

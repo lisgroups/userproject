@@ -3,9 +3,7 @@ namespace Home\Controller;
 use Think\Controller;
 class IndexController extends Controller {
     public function index(){
-        header("Content-type:text/html;charset=utf-8");
-
-        //echo ROOT_PATH.'includes/codetable/pinyin.dat';
+        //header("Content-type:text/html;charset=utf-8");
         $index = D('Region');
         $zimu_city = $index->header_city();
         $this->assign('zimu_city', $zimu_city);

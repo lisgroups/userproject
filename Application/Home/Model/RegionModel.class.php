@@ -3,9 +3,10 @@ namespace Home\Model;
 use Think\Model;
 class RegionModel extends Model {
     public function header_city() {
-        //echo 'header_city';//__PREFIX__
+        //echo C('DB_PREFIX');//__PREFIX__
         $city1 = new \Think\Model();
-        $sql = "select r.* from __PREFIX__store_shipping_region as ssr left join __PREFIX__region as r on ssr.city=r.region_id where ssr.city>0 group by ssr.city";
+        $prefix = C('DB_PREFIX');
+        $sql = "select r.* from {$prefix}store_shipping_region as ssr left join {$prefix}region as r on ssr.city=r.region_id where ssr.city>0 group by ssr.city";
         $row_region = $city1->query($sql);
         foreach($row_region as $v) {
             $zimu = GetPinyin($v['region_name'], 1);

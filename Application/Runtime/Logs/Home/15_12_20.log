@@ -1,0 +1,237 @@
+[ 2015-12-20T12:14:03+08:00 ] 127.0.0.1 /tp3/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+
+[ 2015-12-20T12:16:33+08:00 ] 127.0.0.1 /tp3/index.php/Home/Index/num
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+
+[ 2015-12-20T12:16:46+08:00 ] 127.0.0.1 /tp3/index.php/Home/Index/num
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+
+[ 2015-12-20T12:16:48+08:00 ] 127.0.0.1 /tp3/index.php/Home/Index/num
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+
+[ 2015-12-20T12:16:57+08:00 ] 127.0.0.1 /tp3/index.php/Home/Index/num
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+
+[ 2015-12-20T12:16:58+08:00 ] 127.0.0.1 /tp3/index.php/Home/Index/num
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+
+[ 2015-12-20T12:16:58+08:00 ] 127.0.0.1 /tp3/index.php/Home/Index/num
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+
+[ 2015-12-20T12:16:58+08:00 ] 127.0.0.1 /tp3/index.php/Home/Index/num
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+
+[ 2015-12-20T12:16:58+08:00 ] 127.0.0.1 /tp3/index.php/Home/Index/num
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+
+[ 2015-12-20T12:16:59+08:00 ] 127.0.0.1 /tp3/index.php/Home/Index/num
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+
+[ 2015-12-20T12:16:59+08:00 ] 127.0.0.1 /tp3/index.php/Home/Index/num
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+
+[ 2015-12-20T12:16:59+08:00 ] 127.0.0.1 /tp3/index.php/Home/Index/num
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+
+[ 2015-12-20T12:17:00+08:00 ] 127.0.0.1 /tp3/index.php/Home/Index/num
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+
+[ 2015-12-20T12:18:57+08:00 ] 127.0.0.1 /tp3/index.php/Home/Index/num
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+ERR: 模板不存在:./Application/Home/View/Index/num.html
+
+[ 2015-12-20T12:19:34+08:00 ] 127.0.0.1 /tp3/index.php/Home/Index/num
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+
+[ 2015-12-20T12:19:59+08:00 ] 127.0.0.1 /tp3/index.php/Home/Index/num
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+
+[ 2015-12-20T13:07:37+08:00 ] 127.0.0.1 /tp3/index.php/Home/Index/num
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+
+[ 2015-12-20T13:07:39+08:00 ] 127.0.0.1 /tp3/index.php/Home/Index/num
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+
+[ 2015-12-20T13:07:39+08:00 ] 127.0.0.1 /tp3/index.php/Home/Index/num
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+
+[ 2015-12-20T13:07:40+08:00 ] 127.0.0.1 /tp3/index.php/Home/Index/num
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+
+[ 2015-12-20T13:07:40+08:00 ] 127.0.0.1 /tp3/index.php/Home/Index/num
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+
+[ 2015-12-20T13:07:40+08:00 ] 127.0.0.1 /tp3/index.php/Home/Index/num
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+
+[ 2015-12-20T13:07:40+08:00 ] 127.0.0.1 /tp3/index.php/Home/Index/num
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+
+[ 2015-12-20T16:57:22+08:00 ] 127.0.0.1 /tp3/index.php/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+
+[ 2015-12-20T17:32:02+08:00 ] 127.0.0.1 /tp3/index.php/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+
+[ 2015-12-20T17:34:23+08:00 ] 127.0.0.1 /tp3/index.php/Home/User/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+
+[ 2015-12-20T17:35:31+08:00 ] 127.0.0.1 /tp3/index.php/Home/User/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+
+[ 2015-12-20T17:36:26+08:00 ] 127.0.0.1 /tp3/index.php/Home/User/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+
+[ 2015-12-20T17:36:27+08:00 ] 127.0.0.1 /tp3/index.php/Home/User/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+
+[ 2015-12-20T17:36:28+08:00 ] 127.0.0.1 /tp3/index.php/Home/User/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+
+[ 2015-12-20T17:36:28+08:00 ] 127.0.0.1 /tp3/index.php/Home/User/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+
+[ 2015-12-20T17:36:29+08:00 ] 127.0.0.1 /tp3/index.php/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+
+[ 2015-12-20T17:36:30+08:00 ] 127.0.0.1 /tp3/index.php/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+
+[ 2015-12-20T17:36:30+08:00 ] 127.0.0.1 /tp3/index.php/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+
+[ 2015-12-20T17:36:30+08:00 ] 127.0.0.1 /tp3/index.php/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+
+[ 2015-12-20T17:36:31+08:00 ] 127.0.0.1 /tp3/index.php/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+
+[ 2015-12-20T17:36:31+08:00 ] 127.0.0.1 /tp3/index.php/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+
+[ 2015-12-20T17:36:31+08:00 ] 127.0.0.1 /tp3/index.php/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+
+[ 2015-12-20T17:36:31+08:00 ] 127.0.0.1 /tp3/index.php/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+
+[ 2015-12-20T17:36:31+08:00 ] 127.0.0.1 /tp3/index.php/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+
+[ 2015-12-20T17:36:53+08:00 ] 127.0.0.1 /tp3/index.php/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+
+[ 2015-12-20T17:36:58+08:00 ] 127.0.0.1 /tp3/index.php/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+
+[ 2015-12-20T17:37:26+08:00 ] 127.0.0.1 /tp3/index.php/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+
+[ 2015-12-20T17:39:01+08:00 ] 127.0.0.1 /tp3/index.php/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+
+[ 2015-12-20T17:39:08+08:00 ] 127.0.0.1 /tp3/index.php/Home/User/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+ERR: Think\Controller:isPost方法不存在！
+
+[ 2015-12-20T17:39:21+08:00 ] 127.0.0.1 /tp3/index.php/Home/User/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+
+[ 2015-12-20T17:39:27+08:00 ] 127.0.0.1 /tp3/index.php/Home/User/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+

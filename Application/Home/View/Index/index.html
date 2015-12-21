@@ -1,0 +1,19 @@
+<li onMouseOver="show_city1();" onMouseOut="hide_city1();"><font style="color:#fff;" id='header_city_name'>{$nowcityname}</font>
+    <div id="city-box1" style="display:block;">
+        <table width="100%" cellpadding=5 cellspacing=1>
+            <tr>
+                <td class="nowcityname" colspan=2>当前城市：<b id='header_city_name2'>{$nowcityname}</b></td>
+            </tr>
+            <foreach name="zimu_city" key="city_key" item="city_val">
+            <tr>
+                <td width="8%" valign="top" class="city_key" style=""><b>{$city_key}</b></td>
+                <td valign="top"  class="city_key">
+                    <foreach name="city_val" item="ccity">
+                    <a href="javascript:void(0)" onclick="chang_city('{$ccity.region_id}')" class="region_name">{$ccity.region_name}</a>&nbsp;
+                    </foreach>
+                </td>
+            </tr>
+            </foreach>
+        </table>
+    </div>
+</li>

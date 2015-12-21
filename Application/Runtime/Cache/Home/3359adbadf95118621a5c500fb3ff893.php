@@ -26,9 +26,9 @@
 </div>
 <div class="container">
     <div class="demo">
-        <h2 class="title"><a href="http://www.sucaihuo.com/js/325.html">教程：PHP激活用户注册验证邮箱</a></h2>
+        <h2 class="title"><a href="http://www.sucaihuo.com/js/325.html">教程：PHP用户注册界面</a></h2>
 
-        <form id="reg" action="/tp3/index.php/Home/User/register" method="post" onsubmit="return chk_form();">
+        <form id="reg" action="/userproject/Home/User/register" method="post" onsubmit="return chk_form();">
             <p>用户名：<input type="text" class="input" name="username" id="user"></p>
             <p>密 &nbsp; 码：<input type="password" class="input" name="password" id="pass"></p>
             <!--<p>E-mail：<input type="text" class="input" name="email" id="email"></p>-->
@@ -48,7 +48,6 @@
             return false;
         }
         var pass = document.getElementById("pass");
-        alert(pass);
         if (pass.value == "") {
             alert("密码不能为空！");
             return false;

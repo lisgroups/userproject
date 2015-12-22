@@ -21,8 +21,32 @@ class UserModel extends Model {
             $data = array('error'=>1, 'msg'=>'用户名格式不正确');
             return $data;
         }
-        $userinfo = $this->where(array('user_name'=>$username))->find();
-        return $userinfo;
+        //引入验证类
+        import('Org.Util.Verify');
+        $verify = new \Verify();
+        if($verify->isEmail($username)) {
+            $where = array('email'=>$username);
+        }else if($verify->isMobile($username)) {
+            $where = array('phone'=>$username);
+        }else {
+            $where = array('user_name'=>$username);
+        }
+        $userinfo = $this->field('user_id,user_name,email,password,phone,salt')->where($where)->find();
+        if(empty($userinfo)) {
+            $data = array('error'=>1, 'msg'=>'用户不存在');
+        }else {
+            $new_pass = md5(md5($password).$userinfo['salt']);//加密算法
+            if($new_pass == $userinfo['password']) {
+                $data = array('error'=>0, 'msg'=>'用户登录成功');
+                session('user_id', $userinfo['user_id']);
+                session('user_name', $userinfo['user_name']);
+                cookie();
+            } else {
+                $data = array('error'=>1, 'msg'=>'用户名或密码错误');
+            }
+        }
+
+        return $data;
     }
     /**用户注册方法
      * 参数：username,password

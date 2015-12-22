@@ -8,6 +8,7 @@ class UserController extends Controller {
      **/
     public function index(){
         if(IS_POST) {
+            //未添加验证码处理，后续更新
             $user = D('user');
             $data = $user->login(I('username'), I('password'));
             var_dump($data);

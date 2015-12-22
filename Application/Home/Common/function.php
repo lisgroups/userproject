@@ -1,5 +1,96 @@
 <?php
 /**
+ *  用户登录函数
+ *
+ * @access  public
+ * @param   string  $username
+ * @param   string  $password
+ *
+ * @return void
+ */
+function login($username, $password, $remember = null)
+{
+    if ($this->check_user($username, $password) > 0)
+    {
+        if ($this->need_sync)
+        {
+            $this->sync($username,$password);
+        }
+        $this->set_session($username);
+        $this->set_cookie($username, $remember);
+
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
+/**
+ *  设置指定用户SESSION
+ *
+ * @access  public
+ * @param
+ *
+ * @return void
+ */
+function set_session ($username='')
+{
+    if (empty($username))
+    {
+        $GLOBALS['sess']->destroy_session();
+    }
+    else
+    {
+        $sql = "SELECT user_id, password, email,mobile_phone, headimg FROM " . $GLOBALS['ecs']->table('users') . " WHERE user_name='$username' LIMIT 1";
+        $row = $GLOBALS['db']->getRow($sql);
+
+        if ($row)
+        {
+            $_SESSION['user_id']   = $row['user_id'];
+            $_SESSION['user_name'] = $username;
+            $_SESSION['email']     = $row['email'];
+            $_SESSION['mobile_phone'] = $row['mobile_phone'];
+            $_SESSION['headimg'] = $row['headimg'];
+        }
+    }
+}
+/**
+ *  设置cookie
+ *
+ * @access  public
+ * @param
+ *
+ * @return void
+ */
+function set_cookie($username='', $remember= null )
+{
+    if (empty($username))
+    {
+        /* 摧毁cookie */
+        $time = time() - 3600;
+        setcookie("ECS[user_id]",  '', $time, $this->cookie_path);
+        setcookie("ECS[password]", '', $time, $this->cookie_path);
+        setcookie("ECS[username]", '', $time, $this->cookie_path);
+
+    }
+    elseif ($remember)
+    {
+        /* 设置cookie */
+        $time = time() + 3600 * 24 * 15;
+
+        setcookie("ECS[username]", $username, $time, $this->cookie_path, $this->cookie_domain);
+        $sql = "SELECT user_id, password FROM " . $GLOBALS['ecs']->table('users') . " WHERE user_name='$username' LIMIT 1";
+        $row = $GLOBALS['db']->getRow($sql);
+        if ($row)
+        {
+            setcookie("ECS[user_id]", $row['user_id'], $time, $this->cookie_path, $this->cookie_domain);
+            setcookie("ECS[password]", $row['password'], $time, $this->cookie_path, $this->cookie_domain);
+        }
+    }
+}
+
+/**
  *created by 2261617274@qq.com at 2015-10-15 15:18:06
  *@param 姓名
  *@return 笔画数

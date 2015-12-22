@@ -8,9 +8,9 @@ class UserController extends Controller {
      **/
     public function index(){
         if(IS_POST) {
-            //preg_match('/\'\/^\\s*$|^c:\\\\con\\\\con$|[%,\\*\\"\\s\\t\\<\\>\\&\'\\\\]/', $username) --无效的用户名
-            $username = I('username');
-            var_dump($_POST);
+            $user = D('user');
+            $data = $user->login(I('username'), I('password'));
+            var_dump($data);
         }
         $this->display();
     }

@@ -8,10 +8,26 @@
 namespace Home\Model;
 use Think\Model;
 class UserModel extends Model {
+    /**用户登录方法
+     * 请求方法：POST请求
+     * 参数：username,password
+     **/
+    public function login($username, $password) {
+        if(empty($username) || empty($password)) {
+            $data = array('error'=>1, 'msg'=>'用户名或密码不能为空');
+            return $data;
+        }
+        if( preg_match('/\'\/^\\s*$|^c:\\\\con\\\\con$|[%,\\*\\"\\s\\t\\<\\>\\&\'\\\\]/', $username) ) {
+            $data = array('error'=>1, 'msg'=>'用户名格式不正确');
+            return $data;
+        }
+        $userinfo = $this->where(array('user_name'=>$username))->find();
+        return $userinfo;
+    }
     /**用户注册方法
      * 参数：username,password
      **/
-    public function register($username,$password) {
+    public function register($username, $password) {
         if(empty($username) || empty($password)) {
             $data = array('error'=>1, 'msg'=>'用户名或密码不能为空');
             return $data;
@@ -53,6 +69,5 @@ class UserModel extends Model {
             $data = array('error'=>1, 'msg'=>'用户注册失败,请稍后重试');
         }
         return $data;
-
     }
 }
